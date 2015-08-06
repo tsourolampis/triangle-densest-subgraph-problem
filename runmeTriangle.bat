@@ -1,0 +1,1 @@
+FOR %%f IN (*.txt) DO TrianglePeel.exe < %%f > "%%f-Triangle-results" 
