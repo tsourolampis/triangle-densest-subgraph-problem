@@ -1,8 +1,13 @@
+Description
+-----------
+
 Peeling algorithm for the triangle densest subgraph problem. 
 The algorithm appears in 
 http://people.seas.harvard.edu/~babis/kcliqueDSP.pdf
 and was used to produce the results in the WWW’15 paper 
 
+Instructions
+------------ 
 
 Compile: g++ TrianglePeel.cpp -o TrianglePeel -std=gnu++0x -O3
 Demo: ./TrianglePeel.exe < airport.txt > airport.log
